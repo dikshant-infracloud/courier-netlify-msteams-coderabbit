@@ -11,5 +11,5 @@
 
 
 [build]
-  command = "find . -path ./.git -prune -o -exec chown $(id -u):$(id -g) {} + && npm run build"
+  command = "find . -path ./.git -prune -o -exec chown $(id -u):$(id -g) {} +"
   publish = "build"
